@@ -1,0 +1,29 @@
+function calculadora() {
+    let n1 = parseFloat(prompt("Digite um Número: "))
+    let n2 = parseFloat(prompt("Digite outro Número: "))
+    let n3 = parseString(prompt("Selecione qual operação deseja realizar: "))
+
+
+    if (n2 === 0){
+        console.log("Não foi possível realizar a divisão")
+    }
+    else if (n3 === "adição") {
+        soma = n1 + n2
+        console.log("soma = " + soma)
+    }
+    else if (n3 === "subtração") {
+        subtração = n1 + n2
+        console.log("subtração = " + subtração)
+    }
+    else if (n3 === "multiplicação"){
+        multiplicação = n1 * n2
+        console.log("multiplicação = " + multiplicação)
+    }
+    else if (n3 === "divisão"){
+        divisão = n1 / n2   
+        console.log("divisão = " + divisão)
+
+
+
+    }
+}
